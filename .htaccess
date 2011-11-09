@@ -1,0 +1,5 @@
+AddType text/html .shtml
+AddHandler server-parsed .shtml
+AddHandler server-parsed .html
+AddHandler server-parsed .htm
+Options Indexes FollowSymLinks Includes
