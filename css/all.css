@@ -72,6 +72,20 @@ q:after{content:''}
 	float:right;
 	padding:28px 0 90px 52px;
 }
+#main span{direction:ltr;}
+#main .main-nav{
+	margin: 0 0 0 120px;
+	list-style:none;
+	float:left;
+	text-align:center;
+	font-size:135%;	
+}
+.main-nav li{
+	float:left;
+	padding:0 4px 0 6px;
+}
+.main-nav li:first-child{background:none;}
+.main-nav a{color:#6d6e71;}
 #content{
 	float:left;
 	background:#efe0d5 url(../images/bg-content.gif) repeat-y;
@@ -84,21 +98,6 @@ q:after{content:''}
 	padding:18px 37px 0 146px;
 	overflow:hidden;
 }
-#content span{direction:ltr;}
-#content .content-nav{
-	margin: 0 0 0 200px;
-	list-style:none;
-	float:left;
-	text-align:center;
-	font-size:135%;	
-}
-.content-nav li{
-	float:left;
-	background:url(../images/separator.gif) no-repeat 0 50%;
-	padding:0 4px 0 6px;
-}
-.content-nav li:first-child{background:none;}
-.content-nav a{color:#6d6e71;}
 #sidebar{
 	width:118px;
 	float:right;
