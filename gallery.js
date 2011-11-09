@@ -36,9 +36,9 @@ $(document).ready(function(){
 	$("#content img").remove();
 	container.show();
 	var table1 = $("<table style='width:500px;table-layout:fixed;overflow:hidden; white-space: nowrap;'><tr>" + 
-	"<td style='width:50px'><img src='images/arw_r.png' id='arrow_r' /></td>" + 
+	"<td style='width:50px'><img src='images/arw_r.png' width='15px' id='arrow_r' /></td>" + 
 	"<td style='width:400px;overflow:hidden' id='cont2'></td>" + 
-	"<td style='width:50px'><img src='images/arw_l.png' id='arrow_l' /></td>" + 
+	"<td style='width:50px'><img src='images/arw_l.png' width='15px' id='arrow_l' /></td>" + 
 	"</tr></table>");
 	container.append(table1);
 	var totalWidth = 0;
