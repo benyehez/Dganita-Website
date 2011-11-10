@@ -129,6 +129,9 @@ q:after{content:''}
 .side-nav a.active{
 	background:#ecd7cb;
 }
+.side-nav a.inactive{
+	background:#fffef2;
+}
 .language a{
 	background:#a7a9ac;
 	color:#fff;
