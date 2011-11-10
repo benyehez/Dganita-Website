@@ -74,7 +74,7 @@ q:after{content:''}
 }
 #main span{direction:ltr;}
 #main .main-nav{
-	margin: 0 0 0 120px;
+	margin: 0 0 0 50px;
 	list-style:none;
 	float:left;
 	text-align:center;
