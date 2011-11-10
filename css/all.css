@@ -158,3 +158,9 @@ q:after{content:''}
 }
 .footer-nav li:first-child{background:none;}
 .footer-nav a{color:#fffef2;}
+#invisiblePrefetch{
+	Visibility: hidden;
+	display: none;
+	width:0px;height:0px;
+	top: -99999px;
+}
