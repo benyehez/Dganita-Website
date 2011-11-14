@@ -87,13 +87,18 @@ q:after{content:''}
 	float:left;
 	padding:5px 5px 5px 5px;
 	margin: 0 0 0 15px;
-	border: 1px solid grey;
 	font: 12px/17px  Arial, Helvetica, sans-serif;
 }
 .main-nav li:first-child{background:none;}
 .main-nav a{
 	color:#6d6e71;
 	padding:5px 5px 5px 5px;
+}
+.main-nav a.active{
+	background:#fffef2;
+}
+.main-nav a.inactive{
+	background:#d3cbaf;
 }
 #content{
 	float:left;
