@@ -72,9 +72,12 @@ q:after{content:''}
 	float:right;
 	padding:28px 0 90px 52px;
 }
-#main span{direction:ltr;}
+#main span{
+	direction:ltr;
+}
+
 #main .main-nav{
-	margin: 0 0 0 50px;
+	margin: 0 0 0 100px;
 	list-style:none;
 	float:left;
 	text-align:center;
@@ -82,10 +85,16 @@ q:after{content:''}
 }
 .main-nav li{
 	float:left;
-	padding:0 4px 0 6px;
+	padding:5px 5px 5px 5px;
+	margin: 0 0 0 15px;
+	border: 1px solid grey;
+	font: 12px/17px  Arial, Helvetica, sans-serif;
 }
 .main-nav li:first-child{background:none;}
-.main-nav a{color:#6d6e71;}
+.main-nav a{
+	color:#6d6e71;
+	padding:5px 5px 5px 5px;
+}
 #content{
 	float:left;
 	background:#efe0d5 url(../images/bg-content.gif) repeat-y;
