@@ -1,54 +1,14 @@
 				</div>
 			<div id="sidebar">
 				<ul class="side-nav">
-<!--#if expr="($DOCUMENT_NAME=index.html)" -->
-<!--#set var="ac" value="active" -->
-<!--#elif expr="($DOCUMENT_NAME!=index.html)" -->
-<!--#set var="ac" value="inactive" -->
-<!--#endif -->
-					<li><a href="index.html" class="<!--#echo var='ac' -->">דף הבית<!--#echo var='bbb' --></a></li>
-<!--#if expr="($DOCUMENT_NAME=about.html)" -->
-<!--#set var="ac" value="active" -->
-<!--#elif expr="($DOCUMENT_NAME!=about.html)" -->
-<!--#set var="ac" value="inactive" -->
-<!--#endif -->
-					<li><a href="about.html" class="<!--#echo var='ac' -->">אודות</a></li>
-<!--#if expr="($DOCUMENT_NAME=news.html)" -->
-<!--#set var="ac" value="active" -->
-<!--#elif expr="($DOCUMENT_NAME!=news.html)" -->
-<!--#set var="ac" value="inactive" -->
-<!--#endif -->
-					<li><a href="news.html" class="<!--#echo var='ac' -->">חדשות</a></li>
-<!--#if expr="($DOCUMENT_NAME=summer2010.html) || ($DOCUMENT_NAME=winter2011.html) || ($DOCUMENT_NAME=summer2011.html) || ($DOCUMENT_NAME=winter2012.html)" -->
-<!--#set var="ac" value="active" -->
-<!--#else -->
-<!--#set var="ac" value="inactive" -->
-<!--#endif -->
-					<li><a href="winter2012.html" class="<!--#echo var='ac' -->">קולקציות</a></li>
-<!--#if expr="($DOCUMENT_NAME=blog.html)" -->
-<!--#set var="ac" value="active" -->
-<!--#elif expr="($DOCUMENT_NAME!=blog.html)" -->
-<!--#set var="ac" value="inactive" -->
-<!--#endif -->
-					<li><a href="blog.html" class="<!--#echo var='ac' -->">בלוג</a></li>
-<!--#if expr="($DOCUMENT_NAME=media.html)" -->
-<!--#set var="ac" value="active" -->
-<!--#elif expr="($DOCUMENT_NAME!=media.html)" -->
-<!--#set var="ac" value="inactive" -->
-<!--#endif -->
-					<li><a href="media.html" class="<!--#echo var='ac' -->">מהתקשורת</a></li>
-<!--#if expr="($DOCUMENT_NAME=stores.html)" -->
-<!--#set var="ac" value="active" -->
-<!--#elif expr="($DOCUMENT_NAME!=stores.html)" -->
-<!--#set var="ac" value="inactive" -->
-<!--#endif -->
-					<li><a href="stores.html" class="<!--#echo var='ac' -->">רשימת חנויות</a></li>
-<!--#if expr="($DOCUMENT_NAME=contact.html)" -->
-<!--#set var="ac" value="active" -->
-<!--#elif expr="($DOCUMENT_NAME!=contact.html)" -->
-<!--#set var="ac" value="inactive" -->
-<!--#endif -->
-					<li><a href="contact.html" class="<!--#echo var='ac' -->">צור קשר</a></li>
+					<li><a href="index.html" class="<!--#echo var='AcIndex' -->active">דף הבית<!--#echo var='bbb' --></a></li>
+					<li><a href="about.html" class="<!--#echo var='AcAbout' -->active">אודות</a></li>
+					<li><a href="news.html" class="<!--#echo var='AcNews' -->active">חדשות</a></li>
+					<li><a href="winter2012.html" class="<!--#echo var='AcCollections' -->active">קולקציות</a></li>
+					<li><a href="blog.html" class="<!--#echo var='AcBlog' -->active">בלוג</a></li>
+					<li><a href="media.html" class="<!--#echo var='AcMedia' -->active">מהתקשורת</a></li>
+					<li><a href="stores.html" class="<!--#echo var='AcStores' -->active">רשימת חנויות</a></li>
+					<li><a href="contact.html" class="<!--#echo var='AcContact' -->active">צור קשר</a></li>
 					<!-- Removed language from side bar, to return it uncomment the following -->
 					<!-- <li class="language"><a href="../eng/about.html">English</a></li> -->
 				</ul>
