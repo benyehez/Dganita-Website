@@ -106,14 +106,14 @@ q:after{content:''}
 	width:541px;
 }
 #content p{margin:0 0 20px;}
-#content a{color:#6D6E71;}
+#content a{color:#6D6E71;font-size:105%;}
 #content .holder{
 	background:url(../images/bg-contentt-decor.gif) no-repeat;
 	min-height:405px;
 	padding:18px 37px 0 146px;
 	overflow:hidden;
 }
-.holder a{color:#6D6E71;font-size:105%;font-weight:bold}
+.holder a{color:#6D6E71;font-size:105%;}
 #sidebar{
 	width:118px;
 	float:right;
