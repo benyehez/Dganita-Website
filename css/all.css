@@ -44,6 +44,35 @@ q:after{content:''}
 	z-index:2;
 	direction:rtl;
 }
+#wrapper span{
+	direction:ltr;
+}
+
+#wrapper .wrapper-nav{
+	margin: 0 0 0 45px;
+	list-style:none;
+	float:left;
+	text-align:center;
+	font-size:125%;	
+	overflow:hidden;
+}
+.wrapper-nav li{
+	float:left;
+	padding:5px 5px 5px 5px;
+	margin: 0 0 0 15px;
+	font: 12px/17px  Arial, Helvetica, sans-serif;
+}
+.wrapper-nav li:first-child{background:none;}
+.wrapper-nav a{
+	color:#6d6e71;
+	padding:5px 5px 5px 5px;
+}
+.wrapper-nav a.active{
+	background:#fffef2;
+}
+.wrapper-nav a.inactive{
+	background:#d3cbaf;
+}
 #header{
 	float:left;
 	width:206px;
