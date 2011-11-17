@@ -81,7 +81,8 @@ q:after{content:''}
 	list-style:none;
 	float:left;
 	text-align:center;
-	font-size:135%;	
+	font-size:125%;	
+	overflow:hidden;
 }
 .main-nav li{
 	float:left;
@@ -113,7 +114,19 @@ q:after{content:''}
 	padding:18px 37px 0 146px;
 	overflow:hidden;
 }
-.holder a.big{font-size:105%;}
+.holder a.big{font-size:110%;}
+.holder p.iframeHdr{
+	text-align:center;
+	font-size:120%;
+}
+.holder p.iframeFtr{
+	text-align:center;
+	font-size:120%;
+	font-weight:bold;
+}
+.holder iframe{
+	text-align:center;
+}
 #sidebar{
 	width:118px;
 	float:right;
