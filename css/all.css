@@ -49,23 +49,24 @@ q:after{content:''}
 }
 
 #wrapper .wrapper-nav{
-	margin: 0 0 0 45px;
+	margin: 0 0 0 150px;
 	list-style:none;
 	float:left;
 	text-align:center;
-	font-size:125%;	
+	font-size:100%;
 	overflow:hidden;
 }
 .wrapper-nav li{
 	float:left;
-	padding:5px 5px 5px 5px;
+	padding:0 5px 5px 5px;
 	margin: 0 0 0 15px;
-	font: 12px/17px  Arial, Helvetica, sans-serif;
+	font: Arial, Helvetica, sans-serif;
 }
 .wrapper-nav li:first-child{background:none;}
 .wrapper-nav a{
+	display:block;
 	color:#6d6e71;
-	padding:5px 5px 5px 5px;
+	padding:0 5px 5px 5px;
 }
 .wrapper-nav a.active{
 	background:#fffef2;
@@ -110,19 +111,20 @@ q:after{content:''}
 	list-style:none;
 	float:left;
 	text-align:center;
-	font-size:125%;	
+	font-size:100%;	
 	overflow:hidden;
 }
 .main-nav li{
 	float:left;
-	padding:5px 5px 5px 5px;
+	padding:0 5px 5px 5px;
 	margin: 0 0 0 15px;
-	font: 12px/17px  Arial, Helvetica, sans-serif;
+	font: Arial, Helvetica, sans-serif;
 }
 .main-nav li:first-child{background:none;}
 .main-nav a{
+	display:block;
 	color:#6d6e71;
-	padding:5px 5px 5px 5px;
+	padding:0 5px 5px 5px;
 }
 .main-nav a.active{
 	background:#fffef2;
