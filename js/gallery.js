@@ -2,15 +2,37 @@ dganita = {
 	arrImgs: null,
 	curIdx: 0,
 	rightArrowClick: function() {
+		var arrow_r = document.getElementById('arrow_r');
+		var arrow_l = document.getElementById('arrow_l');
 		if(dganita.curIdx == dganita.arrImgs.length - 1)
-			return;
+			return
 		dganita.curIdx = dganita.curIdx + 1;
+		arrow_l.style.visibility='visible';
+		if(dganita.curIdx == dganita.arrImgs.length - 1)
+		{
+			arrow_r.style.visibility='hidden';
+		}
+		else
+		{
+			arrow_r.style.visibility='visible';
+		}
 		dganita.animateGallery();
 	},
 	leftArrowClick: function() {
+		var arrow_r = document.getElementById('arrow_r');
+		var arrow_l = document.getElementById('arrow_l');
 		if(dganita.curIdx == 0)
-			return;
+			return
 		dganita.curIdx = dganita.curIdx - 1;
+		arrow_r.style.visibility='visible';
+		if(dganita.curIdx == 0)
+		{
+			arrow_l.style.visibility='hidden';
+		}
+		else
+		{
+			arrow_l.style.visibility='visible';
+		}
 		dganita.animateGallery();
 	},
 	animateGallery: function(){
@@ -36,9 +58,9 @@ $(document).ready(function(){
 	$("#content img").remove();
 	container.show();
 	var table1 = $("<table style='width:500px;table-layout:fixed;overflow:hidden; white-space: nowrap;'><tr>" + 
-	"<td style='width:50px'><p id='arrow_r' style='font:250% Arial;color:#fffef2;text-align:left'> < </p></td>" + 
+	"<td style='width:50px'><p id='arrow_r' style='font:250% Arial;color:#fffef2;text-align:left;visibility:visible;'> < </p></td>" + 
 	"<td style='width:400px;overflow:hidden' id='cont2'></td>" + 
-	"<td style='width:50px'><p id='arrow_l' style='font:250% Arial;color:#fffef2;text-align:right'> > </p></td>" + 
+	"<td style='width:50px'><p id='arrow_l' style='font:250% Arial;color:#fffef2;text-align:right;visibility:hidden;'> > </p></td>" + 
 	"</tr></table>");
 	container.append(table1);
 	var totalWidth = 0;
