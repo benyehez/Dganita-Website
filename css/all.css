@@ -113,11 +113,16 @@ q:after{content:''}
 }
 #content{
 	float:left;
-	background:#efe0d5 url(../images/bg-content.gif) repeat-y;
 	width:541px;
 }
 #content p{margin:0 0 20px;}
 #content a{color:#6D6E71;}
+#content .noHolder{
+	background:none;
+	padding:18px 37px 0 146px;
+	text-align:center;
+	overflow:hidden;
+}
 #content .holder{
 	background:url(../images/bg-contentt-decor.gif) no-repeat;
 	min-height:405px;
