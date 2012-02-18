@@ -137,6 +137,10 @@ q:after{content:''}
 .main-nav a.inactive{
 	background:#d3cbaf;
 }
+.main-nav a.inactive:hover{
+	text-decoration:none;
+	background:#efe0d5;
+}
 #content{
 	float:left;
 	background:#efe0d5 url(../images/bg-content.gif) repeat-y;
