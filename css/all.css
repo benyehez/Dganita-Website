@@ -124,7 +124,7 @@ q:after{content:''}
 	overflow:hidden;
 }
 #content .holder{
-	background:url(../images/bg-contentt-decor.gif) no-repeat;
+	background:url(../images/bg-contentt-decor.gif) repeat-y;
 	min-height:405px;
 	padding:18px 37px 0 146px;
 	overflow:hidden;
