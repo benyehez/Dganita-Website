@@ -74,6 +74,11 @@ q:after{content:''}
 .wrapper-nav a.inactive{
 	background:#d3cbaf;
 }
+.wrapper-nav a.inactive:hover{
+	text-decoration:none;
+	background:#efe0d5;
+}
+
 #header{
 	float:left;
 	width:206px;
@@ -182,15 +187,15 @@ q:after{content:''}
 	background:#fffef2;
 	color:#6d6e71;
 }
-.side-nav a:hover{
-	text-decoration:none;
-	background:#efe0d5;
-}
 .side-nav a.active{
 	background:#ecd7cb;
 }
 .side-nav a.inactive{
 	background:#fffef2;
+}
+.side-nav a.inactive:hover{
+	text-decoration:none;
+	background:#efe0d5;
 }
 .language a{
 	background:#a7a9ac;
