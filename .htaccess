@@ -1,6 +1,6 @@
 AddType text/html .shtml
-AddType application/x-httpd-php .html
 AddHandler server-parsed .shtml
 AddHandler server-parsed .html
 AddHandler server-parsed .htm
+AddHandler application/x-httpd-php .html
 Options Indexes FollowSymLinks Includes
