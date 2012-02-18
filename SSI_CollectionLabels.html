@@ -1,8 +1,9 @@
-<!--#set var="AcCollections" value="" --><div id="main">
+<?php $AcCollections=""; ?>
+<div id="main">
 	<ul class="main-nav">
-		<li><span><a href="summer2010.html" class="<!--#echo var='AcSum2010' -->active">קיץ 2010<br/>Summer 2010</a></span></li>
-		<li><span><a href="winter2011.html" class="<!--#echo var='AcWin2011' -->active">חורף 2011<br/>Winter 2011</a></span></li>
-		<li><span><a href="summer2011.html" class="<!--#echo var='AcSum2011' -->active">קיץ 2011<br/>Summer 2011</a></span></li>
-		<li><span><a href="winter2012.html" class="<!--#echo var='AcWin2012' -->active">חורף 2012<br/>Winter 2012</a></span></li>
+		<li><span><a href="summer2010.html" class="<?php print $AcSum2010; ?>active">קיץ 2010<br/>Summer 2010</a></span></li>
+		<li><span><a href="winter2011.html" class="<?php print $AcWin2011; ?>active">חורף 2011<br/>Winter 2011</a></span></li>
+		<li><span><a href="summer2011.html" class="<?php print $AcSum2011; ?>active">קיץ 2011<br/>Summer 2011</a></span></li>
+		<li><span><a href="winter2012.html" class="<?php print $AcWin2012; ?>active">חורף 2012<br/>Winter 2012</a></span></li>
 	</ul>
 	<div id="content" style="background:none;min-height:500px;">

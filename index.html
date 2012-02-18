@@ -1,16 +1,18 @@
-<!--#include virtual="SSI_DefaultHeader.html" -->
+<?php require($DOCUMENT_ROOT . "SSI_DefaultHeader.html"); ?> 
 	<title>דגניתא-דף הבית</title>
 	<meta name="keywords" content="דגניתא, Dganita, דגניתה, מעצבת, מעצבים, אופנה, עיצוב, עיצוב אופנה"/>
 	<meta name="description" content="דגניתא - דף הבית. Dganita - fashion design - homepage"/>
 </head>
 <body>
 	<div id="wrapper" style="background-image:url('images/hp_bg.jpg');background-position:205px 0;background-repeat:no-repeat">
-<!--#include virtual="SSI_logo.html" -->
-<!--#include virtual="SSI_DefaultInactivityVars.html" -->
-<!--#set var="AcIndex" value="" -->
+<?php require($DOCUMENT_ROOT . "SSI_logo.html"); ?>
+<?php require($DOCUMENT_ROOT . "SSI_DefaultInactivityVars.html"); ?>
+<?php $AcIndex="" ?>
 		<div id="main" style="background:none">
 			<div id="content" style="visibility:hidden">
-<!--#include virtual="SSI_Navbar.html" -->
-<!--#include virtual="SSI_InvisiblePrefetch.html" -->
-<!--#include virtual="SSI_CloseSideBarTillFooterStart.html" -->
-<!--#include virtual="SSI_CloseFooterTillHtml.html" -->
+<?php 
+require($DOCUMENT_ROOT . "SSI_Navbar.html");
+require($DOCUMENT_ROOT . "SSI_InvisiblePrefetch.html");
+require($DOCUMENT_ROOT . "SSI_CloseSideBarTillFooterStart.html");
+require($DOCUMENT_ROOT . "SSI_CloseFooterTillHtml.html");
+?>

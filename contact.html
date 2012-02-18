@@ -1,13 +1,13 @@
-<!--#include virtual="SSI_DefaultHeader.html" -->
+<?php require($DOCUMENT_ROOT . "SSI_DefaultHeader.html"); ?> 
 	<title>דגניתא-צור קשר</title>
 	<meta name="keywords" content="דגניתא, Dganita, דגניתה, מעצבת, מעצבים, אופנה, עיצוב, עיצוב אופנ, Xnet, Etsy, Blog, Facebook, email, Blogpost, חנות, בלוג, פייסבוק"/>
 	<meta name="description" content="דגניתא - צור קשר. Dganita - fashion design - contact"/>
 </head>
 <body>
 	<div id="wrapper">
-<!--#include virtual="SSI_logo.html" -->
-<!--#include virtual="SSI_DefaultInactivityVars.html" -->
-<!--#set var="AcContact" value="" -->
+<?php require($DOCUMENT_ROOT . "SSI_logo.html"); ?>
+<?php require($DOCUMENT_ROOT . "SSI_DefaultInactivityVars.html"); ?>
+<?php $AcContact=""; ?>
 		<div id="main">
 			<div id="content">
 				<div class="holder">
@@ -26,6 +26,8 @@ Phone: 972-76-5400466<br/><br/>
 
 	     </div>
 				</div>
-<!--#include virtual="SSI_Navbar.html" -->
-<!--#include virtual="SSI_CloseSideBarTillFooterStart.html" -->
-<!--#include virtual="SSI_CloseFooterTillHtml.html" -->
+<?php 
+require($DOCUMENT_ROOT . "SSI_Navbar.html");
+require($DOCUMENT_ROOT . "SSI_CloseSideBarTillFooterStart.html");
+require($DOCUMENT_ROOT . "SSI_CloseFooterTillHtml.html");
+?>
