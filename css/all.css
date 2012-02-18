@@ -60,7 +60,7 @@ q:after{content:''}
 	float:left;
 	padding:0 5px 5px 5px;
 	margin: 0 0 0 15px;
-	font: Arial, Helvetica, sans-serif;
+	font: 100% Arial, Helvetica, sans-serif;
 }
 .wrapper-nav li:first-child{background:none;}
 .wrapper-nav a{
@@ -118,7 +118,7 @@ q:after{content:''}
 	float:left;
 	padding:0 5px 5px 5px;
 	margin: 0 0 0 15px;
-	font: Arial, Helvetica, sans-serif;
+	font: 100% Arial, Helvetica, sans-serif;
 }
 .main-nav li:first-child{background:none;}
 .main-nav a{
